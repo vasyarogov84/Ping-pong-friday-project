@@ -1,9 +1,12 @@
 $(document).ready(function () {
     $(".btn").click(function (event) {
         event.preventDefault();
+
+
         if($(".pingPongList").length > 0){
             $(".pingPongList").remove();
         }
+        
         var myArr = [];
         var myPong = document.getElementById("Number").value;
         var list = document.createElement('ul');
