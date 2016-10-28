@@ -4,14 +4,13 @@
 
 ## Description
 _Ping Pong is are web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
-
 Numbers divisible by 3 are replaced with "ping"
 Numbers divisible by 5 are replaced with "pong"
 Numbers divisible by 15 are replaced with "ping-pong"_
 
-*It can count to the provided number.
- *Example input: 3
- *Example output:[1,2,ping]
+_*It can count to the provided number._
+ _*Example input: 3_
+ _*Example output:[1,2,ping]_
 
 ##  Technologies Used
 
