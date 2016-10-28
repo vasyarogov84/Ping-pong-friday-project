@@ -3,9 +3,9 @@ $(document).ready(function() {
  event.preventDefault();
 
 var myArr = [];
-var myrr = document.getElementById("Number").value;
+var myPong = document.getElementById("Number").value;
 var list = document.createElement('ul');
-for (var i=1;i<=myrr;i++){
+for (var i=1;i<=myPong;i++){
  if (i%15 === 0){
 myArr.push("pingpong")
 }
@@ -23,7 +23,7 @@ myArr.push(i);
  list.appendChild(item);
 }
 
-document.getElementById("Kiska").appendChild(list);
+document.getElementById("Pong").appendChild(list);
 
  });
 });
