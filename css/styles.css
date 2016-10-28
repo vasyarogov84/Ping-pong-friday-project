@@ -1,25 +1,30 @@
 .container {
-  border: 2px solid black;
-  padding: 0px;
-  margin-bottom: 0px;
-  background-color: #E6E6E6;
-  min-height: 1150px;
+    border: 2px solid black;
+    padding: 0px;
+    margin-bottom: 0px;
+    background-color: #E6E6E6;
+    min-height: 1150px;
 }
+
 .jumbotron {
-   background-color: #E8AF66;
-  text-align: center;
+    background-color: #E8AF66;
+    text-align: center;
 }
+
 .col-md-4 {
-  background-color: #088A4B;
-  min-height: 901px;
+    background-color: #088A4B;
+    min-height: 901px;
 
 }
+
 h4 {
-  color: white;
+    color: white;
 }
+
 .Viktor {
-  color: #E8B068;
+    color: #E8B068;
 }
+
 h5 {
-  color: blue;
+    color: blue;
 }
