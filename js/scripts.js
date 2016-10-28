@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $(".btn").click(function(event) {
-event.preventDefault();
+ event.preventDefault();
 
 var myArr = [];
 var myrr = document.getElementById("Number").value;
@@ -24,5 +24,6 @@ myArr.push(i);
 }
 
 document.getElementById("Kiska").appendChild(list);
+
  });
 });
