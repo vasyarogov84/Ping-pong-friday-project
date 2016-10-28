@@ -9,8 +9,8 @@ Numbers divisible by 5 are replaced with "pong"
 Numbers divisible by 15 are replaced with "ping-pong"_
 
 * It can count to the provided number.
- ⋅⋅* Example input: 3
- ⋅⋅* Example output:[1,2,ping]
+ - Example input: 3
+ + Example output:[1,2,ping]
 
 ##  Technologies Used
 
