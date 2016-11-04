@@ -1,15 +1,22 @@
+// UI logic
+
 $(document).ready(function () {
     $(".btn").click(function (event) {
         event.preventDefault();
 
-
         if($(".pingPongList").length > 0){
             $(".pingPongList").remove();
         }
-        
         var myArr = [];
         var myPong = document.getElementById("Number").value;
         var list = document.createElement('ul');
+
+       document.getElementById("Pong").appendChild(list);
+
+// Business logic
+
+
+
         list.setAttribute("class", "pingPongList");
         for (var i = 1; i <= myPong; i++) {
             if (i % 15 === 0) {
@@ -29,7 +36,7 @@ $(document).ready(function () {
             list.appendChild(item);
         }
 
-        document.getElementById("Pong").appendChild(list);
+
 
     });
 });
